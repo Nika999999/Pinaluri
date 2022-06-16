@@ -1,0 +1,101 @@
+body, html{
+    height:100%;
+    margin:0;
+}
+.img1, .img2, .img3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    z-index:-100;
+}
+.img1{
+    background-image:url('images/background3.jpg');
+    min-height:100%;
+}
+.img2{
+    background-image:url('images/wine.jpg');
+    min-height:100%;
+}
+.img3{
+    background-image:url('images/background2.jpg');
+    min-height:100%;
+}
+.second{
+    margin-top:-57%;
+}
+.header{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+}
+.header .border{
+    background-color:rgb(196, 164, 132);
+    font-size:large;
+    color:#fff;
+    padding:20px;
+}
+.info{
+    margin-top:-37%;
+    margin-left:15%;
+    position:absolute;
+    background-color:rgb(196, 164, 132);
+    width:350px;
+    height:250px;
+    padding:15px;
+    border-radius:50px;
+    display:inline-flex;
+}
+h1{
+    text-align:center;
+    z-index:2;
+}
+nav{
+    border: 2px solid;
+    border-color:black;
+    background-color:rgb(196, 164, 132);
+    z-index:1;
+}
+nav ul li{
+    display:inline;
+    padding-left:20%;
+    z-index:1;
+}
+.menu{
+    position:relative;
+    width:10px;
+    z-index:100;
+}
+
+.items{
+    min-width:150px;
+    height:250px;
+    background-color:	rgb(196, 164, 132);
+    border: 2px solid;
+    border-color:black;
+    position:absolute;
+    display:none;
+    z-index:1;
+}
+a{
+    text-decoration-line: none;
+    color:black;
+}
+a:hover{
+    text-decoration-line:underline;
+}
+ul{
+    list-style-type: none;
+}
+
+.menu:hover .items{
+    display:block;
+}
+video{
+    margin-left:20%;
+    margin-top:5%;
+}

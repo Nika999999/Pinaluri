@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="img4"> </div>
+    <div class="container" >
+        
+        <div class="box">  
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Khinkali_551.jpg/1200px-Khinkali_551.jpg" class="photos">
+        </div>
+        
+        <div class="box">  
+            <img src="https://www.tastingtable.com/img/gallery/khachapuri-cheese-bread/image-import.jpg" class="photos">
+        </div>
+        
+        <div class="box">  
+            <img src="https://images.bolt.eu/store/2022/2022-01-31/38721234-fdeb-436e-a42e-1b95484e1c6e.jpeg" class="photos" >
+        </div>
+    </div>
+    
+    <div class="container-2">
+        <div class="box">  
+            <img src="https://images.culinarybackstreets.com/wp-content/uploads/cb_tbilisi_svaneti_kubdari_nmr2.jpg?lossy=1&ssl=1" class="photos">
+        </div>
+        
+        <div class="box"> 
+            <img src="https://gastronomia.ge/wp-content/uploads/2019/06/67.jpg" class="photos">
+        </div>
+        
+        <div class="box"> 
+            <img src="https://kulinaria.ge/media/recipe-images/2017/05/mwvadi.jpg" class="photos">
+        </div>
+    </div>
+</body>
+
+
+
+
+<style> 
+.img4{
+    position:absolute;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image:url('images/background4.jpg');
+    height:100%;
+    width:100%;
+    margin-left:-8px;
+    margin-top:-8px;
+    z-index:-100;
+}
+body, html{
+    height:100%;
+}
+.photos{
+    width:300px;
+    height:280px;
+    border-radius:20px;
+    position:relative;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.container-2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.box{
+    width:350px;
+    height:400px;
+    padding-left:50px;
+    padding-top: 2%;
+    margin-top:20px;
+    z-index: 2;
+}
+
+
+
+</style>
+</html>
